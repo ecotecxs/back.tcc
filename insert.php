@@ -10,6 +10,6 @@ $insert = "INSERT INTO tb_user VALUES (NULL, '$nome', '$email', '$data', '$senha
 
 $query = mysqli_query($conexao, $insert);
 
-echo "Inserido com sucesso"
+echo "Inserido com sucesso";
 
 ?>
