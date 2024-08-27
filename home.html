@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Expansiva</title>
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    fndjejejfi
+    <header>
+        <nav class="navbar">
+            <div class="dropdown">
+                <h1 class="texto-nav"><img src="img/barra-de-menu.png" alt="menu"></h1>
+                <ul class="dropdown-content">
+                    <li><a href="user.html">Conta</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="cadastro.html">Sair</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <img src="img/packard-bell.png" alt="Ícone 1">
+                <a href="user.html"></a><img src="img/do-utilizador.png" alt="Ícone 2">
+            </div>
+        </nav>
+    </header>
+  <section class="banner">
+    <div class="info">
+        <h1>Alagamento por Área</h1>
+        <p>Clique aqui para conferir os relatórios mensais da sua região!</p>
+    </div>
+    <a href="relatorio.html"><img src="img/grafico-de-barras.png" alt="Gráfico ilustrativo"></a>
+</section>
+
+<section class="mapa">
+    <h2>Mapa Sinalizado</h2>
+    
+    <div id="map"></div>
+</section>
+
+<section class="comentarios">
+    <h2>Comentários</h2>
+    <div class="comentarios-container">
+        <div class="coments">
+            <p>Avaliação 1</p>
+            <span></span>
+        </div>
+        <div class="coments">
+            <p>Avaliação 2</p>
+            <span></span>
+        </div>
+    </div>
+    <a href="#">Ver tudo</a>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
