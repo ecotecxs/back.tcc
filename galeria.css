@@ -124,7 +124,3 @@ body {
     background-color: #3C4F63;
 }
 
-.locked .gallery-icon {
-    filter: grayscale(100%);
-    opacity: 0.5;
-}
