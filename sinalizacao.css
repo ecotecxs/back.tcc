@@ -150,3 +150,21 @@ h2 {
 .botao-enviar:hover {
     background-color: #3b6c8a;
 }
+
+
+.menu-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7BB8C8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .menu-inferior a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
