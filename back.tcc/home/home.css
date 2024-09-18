@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background-color: #103349;
+    color: #FFFFFF;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.texto-nav {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;  
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    top: 100%;
+    left: 0;
+    padding: 0px;
+    margin-top: 0px; 
+    background-color: #7BB8C8;
+    border-radius: 10px;
+    list-style: none;
+
+    
+    
+}
+
+.dropdown-content a {
+    color: rgb(250, 248, 248);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.nav-center {
+    position: absolute; /* Centraliza a imagem em relação à navbar */
+    left: 50%;
+    transform: translateX(-50%);/* Faz com que a imagem no centro ocupe o máximo de espaço disponível */
+}
+
+.nav-center img {
+    width: 30px; /* Ajuste o tamanho da imagem conforme necessário */
+    
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7BB8C8;
+    margin: 0 5vw;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.comentarios-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.coments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu-inferior {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #7BB8C8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .menu-inferior a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+

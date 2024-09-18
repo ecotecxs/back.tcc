@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinalizar Alagamento</title>
+    <link rel="stylesheet" href="sinalizacao.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="dropdown">
+            <h1 class="texto-nav"><img src="img/barra-de-menu.png" alt="menu"></h1>
+            <ul class="dropdown-content">
+                <li><a href="user.html">Conta</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="cadastro.html">Sair</a></li>
+            </ul>
+        </div>
+    
+        <div class="nav-center">
+            <a href="home.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        
+        <div class="nav-right">
+            <a href="notificacao.html"><img src="img/packard-bell.png" alt="Ícone 1"></a>
+            <a href="user.html"><img src="img/do-utilizador.png" alt="Ícone 2"></a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h2>SINALIZAR ALAGAMENTO</h2>
+        <div class="formulario">
+            <div class="campo">
+                <h2 id="endereco">ENDEREÇO DA OCORRÊNCIA</h2>
+                <input type="text" id="endereco" placeholder="Digite o endereço">
+            </div>
+            <div class="campo">
+                <h2>GRAU DO ALAGAMENTO</h2>
+                <div class="opcoes">
+                    <label class="leve"><input type="radio" name="grau" value="leve"> Leve</label>
+                    <label  class="medio"><input type="radio" name="grau" value="medio"> Moderado</label>
+                    <label  class="grave"><input type="radio" name="grau" value="grave"> Grave</label>
+                </div>
+            </div>
+            <div class="campo">
+                <h2 id="comentario">ADICIONAR COMENTÁRIO</h2>
+                <textarea id="comentario" placeholder="Digite seu comentário aqui"></textarea>
+            </div>
+            <button type="submit" class="botao-enviar">ENVIAR</button>
+        </div>
+    </main>
+
+    <nav class="menu-inferior">
+        <a href="conta.html"> Conta</a>
+        <a href="galeria.html"> Galeria</a>
+        <a href="cadastro.html"> Sair</a>
+      </nav>
+</body>
+</html>
