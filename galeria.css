@@ -61,14 +61,17 @@ body {
     display: block;
 }
 
-.nav-center {
-    position: absolute; 
-    left: 50%;
-    transform: translateX(-50%);
+.nav-left {
+    position: relative;
+    display: flex;  
 }
 
-.nav-center img {
+.nav-left h1 {
+    font-family:'Times New Roman', Times, serif ;
+}
+.nav-left img {
     width: 30px; 
+    
 }
 
 .nav-right {
@@ -129,14 +132,16 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #7BB8C8;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 15px;
   }
-  
+  .menu-inferior img {
+    width: 40px;
+  }
   .menu-inferior a {
-    color: #FFFFFF;
+    
     text-decoration: none;
   }
+
