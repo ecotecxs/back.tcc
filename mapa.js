@@ -39,6 +39,7 @@ const map = L.map('map').setView([-24.10508, -46.650696], 11);
 
 	};
 
+map.on('click', onMapClick);
 
 map.on('click', function (e) {
     var latitude = e.latlng.lat;
