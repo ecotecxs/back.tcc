@@ -35,7 +35,7 @@ const map = L.map('map').setView([-24.10508, -46.650696], 11);
 		let lat = e.latlng.toString().slice(7, 17);
 		let lon = e.latlng.toString().slice(19, 29);
 
-		let link = location.href = "insert.php?lat="+lat+'&'+'lon='+lon;
+		let link = location.href = "insert-mapa.php?lat="+lat+'&'+'lon='+lon;
 
 	};
 

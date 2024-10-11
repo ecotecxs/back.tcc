@@ -39,7 +39,7 @@ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0v
         var markerGroup = L.featureGroup([]).addTo(map);
         var latLng = L.latLng([retorno.latitude, retorno.longitude]);
         L.marker(latLng).bindPopup('Nome: ' + retorno.nome +
-          '<br>Endreço: ' + retorno.endereco +
+          '<br>Endereço: ' + retorno.endereco +
           '<br>Data: ' + retorno.data +
           '<br>Ativo: ' + retorno.ativo).addTo(markerGroup).addTo(map);
       });
